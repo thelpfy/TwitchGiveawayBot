@@ -1,8 +1,8 @@
 # TwitchGiveawayBot
 Quick and Dirty Bot
 
-#Setup
-##Python
+# Setup
+## Python
 pip install pipenv
 
 Run ⇒ 
@@ -14,7 +14,7 @@ Run ⇒
    telegram-send --configure  (follow instructions)
    exit
    
-##Lines to change in bot.py
+## Lines to change in bot.py
 8  ⇒ https://twitchapps.com/tmi/
 9  ⇒ https://dev.twitch.tv/console/apps/create (Create an Application with your oauth and get the client-id)
 10 ⇒ Twitch Username
@@ -23,8 +23,8 @@ Run ⇒
 36 ⇒ Twitch Username
 
   
-#Start the Bot
+# Start the Bot
 pipenv run python bot.py
-##For Server (Background)
+## For Server (Background)
 pipenv run python bot.py &
 
